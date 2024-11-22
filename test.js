@@ -29,3 +29,26 @@
 
 //""->false after type conversion to bool
 //"vdg"->true
+
+//if first is string, convert every number ahead to string
+// console.log("1"+6.489+'a');
+// console.log(8+"9");
+// console.log(8+6+2+'c'+5+3+"5");
+// console.log(true);//print true and not 1
+// console.log(+true);// + converts bool to integer -> 1
+// console.log(+"");// + converts bool to integer -> 0
+
+// console.log("023" > 4)//converts string to num
+// console.log(null > 0);//F
+// console.log(null == 0);//F
+// console.log(null >= 0);//T //means comparson and equality check are 2 different things //only here null is coerced to 0 and then 0>=0
+
+// console.log(undefined > 0);//F
+// console.log(undefined == 0);//F
+// console.log(undefined >= 0);//F
+
+//=== strict check  
+
+
+
+
